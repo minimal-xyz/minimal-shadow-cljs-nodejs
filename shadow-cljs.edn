@@ -1,0 +1,6 @@
+[{:id :npm
+  :target :node-script
+  :output-dir "compiled"
+  :output-to "compiled/main.js"
+  :main server.main/main
+  :devtools {:after-load server.main/on-reload}}]
