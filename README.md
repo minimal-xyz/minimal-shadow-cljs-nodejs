@@ -22,7 +22,6 @@ Compiles to `compiled/`.
 
 ### Steps
 
-* add `shadow-cljs` field in `package.json` to specify `source-paths`
 * add `shadow-cljs.edn` to config compilation
 * run `node compiled/main.js` to start app and connect reload server
 

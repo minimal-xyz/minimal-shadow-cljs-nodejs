@@ -2,24 +2,35 @@
 # yarn lockfile v1
 
 
-bencode@^0.12.0:
-  version "0.12.0"
-  resolved "https://registry.yarnpkg.com/bencode/-/bencode-0.12.0.tgz#bc879c476d864453d2479519e44c64b347a59b3a"
+minimist@0.0.8:
+  version "0.0.8"
+  resolved "https://registry.yarnpkg.com/minimist/-/minimist-0.0.8.tgz#857fcabfc3397d2625b8228262e86aa7a011b05d"
+
+mkdirp@^0.5.1:
+  version "0.5.1"
+  resolved "https://registry.yarnpkg.com/mkdirp/-/mkdirp-0.5.1.tgz#30057438eac6cf7f8c4767f38648d6697d75c903"
+  dependencies:
+    minimist "0.0.8"
+
+readline-sync@^1.4.7:
+  version "1.4.7"
+  resolved "https://registry.yarnpkg.com/readline-sync/-/readline-sync-1.4.7.tgz#001bfdd4c06110c3c084c63bf7c6a56022213f30"
 
 safe-buffer@~5.0.1:
   version "5.0.1"
   resolved "https://registry.yarnpkg.com/safe-buffer/-/safe-buffer-5.0.1.tgz#d263ca54696cd8a306b5ca6551e92de57918fbe7"
 
-shadow-cljs-jar@^0.4.0:
-  version "0.4.0"
-  resolved "https://registry.yarnpkg.com/shadow-cljs-jar/-/shadow-cljs-jar-0.4.0.tgz#88cd4d0af7199abfd85add1f06eba679512d6a17"
+shadow-cljs-jar@^0.7.0:
+  version "0.7.0"
+  resolved "https://registry.yarnpkg.com/shadow-cljs-jar/-/shadow-cljs-jar-0.7.0.tgz#a2b35c680be6420c20600402db791790d0e116ae"
 
-shadow-cljs@^0.8.0:
-  version "0.8.0"
-  resolved "https://registry.yarnpkg.com/shadow-cljs/-/shadow-cljs-0.8.0.tgz#cf82464a9605ff78b8200bd53f47d5cefac46c4c"
+shadow-cljs@^0.9.4:
+  version "0.9.4"
+  resolved "https://registry.yarnpkg.com/shadow-cljs/-/shadow-cljs-0.9.4.tgz#c45a0c5f22a57d77771c517e128da61e1340adba"
   dependencies:
-    bencode "^0.12.0"
-    shadow-cljs-jar "^0.4.0"
+    mkdirp "^0.5.1"
+    readline-sync "^1.4.7"
+    shadow-cljs-jar "^0.7.0"
 
 source-map-support@^0.4.15:
   version "0.4.15"
