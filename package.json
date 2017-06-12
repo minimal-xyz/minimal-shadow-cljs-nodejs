@@ -11,7 +11,7 @@
   "author": "jiyinyiyong",
   "license": "MIT",
   "devDependencies": {
-    "shadow-cljs": "^0.9.4",
+    "shadow-cljs": "^0.9.5",
     "source-map-support": "^0.4.15",
     "ws": "^3.0.0"
   }
