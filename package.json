@@ -4,14 +4,14 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "watch": "shadow-cljs -b app --dev",
-    "compile": "shadow-cljs -b app --once"
+    "watch": "shadow-cljs watch app",
+    "compile": "shadow-cljs compile app"
   },
   "keywords": [],
   "author": "jiyinyiyong",
   "license": "MIT",
   "devDependencies": {
-    "shadow-cljs": "^0.9.5",
+    "shadow-cljs": "^0.12.0",
     "source-map-support": "^0.4.15",
     "ws": "^3.0.0"
   }
