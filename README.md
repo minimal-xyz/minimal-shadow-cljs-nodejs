@@ -9,7 +9,7 @@ With hot code swapping support:
 ```bash
 yarn watch
 # another tty
-node compiled/main.js
+node target/main.js
 ```
 
 ### Build
@@ -18,12 +18,12 @@ node compiled/main.js
 yarn compile
 ```
 
-Compiles to `compiled/`.
+Compiles to `target/`.
 
 ### Steps
 
 * add `shadow-cljs.edn` to config compilation
-* run `node compiled/main.js` to start app and connect reload server
+* run `node target/main.js` to start app and connect reload server
 
 ### License
 
