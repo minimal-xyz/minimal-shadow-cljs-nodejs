@@ -5,9 +5,9 @@
 
 (defonce value-b 2)
 
-(defn on-reload []
+(defn reload! []
   (println "Code updated.")
   (println "Trying values:" value-a value-b))
 
-(defn main []
+(defn main! []
   (println "App loaded!"))

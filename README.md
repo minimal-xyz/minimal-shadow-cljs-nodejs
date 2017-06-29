@@ -15,7 +15,7 @@ node target/main.js
 ### Build
 
 ```bash
-yarn compile
+yarn build
 ```
 
 Compiles to `target/`.
