@@ -12,7 +12,7 @@
   "author": "jiyinyiyong",
   "license": "MIT",
   "devDependencies": {
-    "shadow-cljs": "^0.18.1",
+    "shadow-cljs": "^0.18.3",
     "source-map-support": "^0.4.15",
     "ws": "^3.0.0"
   }

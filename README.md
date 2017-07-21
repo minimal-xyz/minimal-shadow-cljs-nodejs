@@ -18,12 +18,24 @@ node target/main.js
 yarn build
 ```
 
-Compiles to `target/`.
+Compiles to `target/main.js`.
 
 ### Steps
 
 * add `shadow-cljs.edn` to config compilation
 * run `node target/main.js` to start app and connect reload server
+
+### Scripts:
+
+Related npm scripts:
+
+```js
+  "scripts": {
+    "watch": "shadow-cljs watch app",
+    "compile": "shadow-cljs compile app",
+    "build": "shadow-cljs release app"
+  },
+```
 
 ### License
 
