@@ -4,10 +4,14 @@ Node.js example for [shadow-cljs](https://github.com/thheller/shadow-cljs)
 
 ### Develop
 
+```bash
+npm i -g shadow-cljs
+```
+
 With hot code swapping support:
 
 ```bash
-yarn watch
+shadow-cljs watch app
 # another tty
 node target/main.js
 ```
@@ -15,7 +19,7 @@ node target/main.js
 ### Build
 
 ```bash
-yarn build
+shadow-cljs release app
 ```
 
 Compiles to `target/main.js`.
@@ -23,19 +27,8 @@ Compiles to `target/main.js`.
 ### Steps
 
 * add `shadow-cljs.edn` to config compilation
+* compile ClojureScript
 * run `node target/main.js` to start app and connect reload server
-
-### Scripts:
-
-Related npm scripts:
-
-```js
-  "scripts": {
-    "watch": "shadow-cljs watch app",
-    "compile": "shadow-cljs compile app",
-    "build": "shadow-cljs release app"
-  },
-```
 
 ### License
 
