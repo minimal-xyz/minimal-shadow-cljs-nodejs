@@ -4,14 +4,11 @@ Node.js example for [shadow-cljs](https://github.com/thheller/shadow-cljs)
 
 ### Develop
 
-```bash
-npm i -g shadow-cljs
-```
-
 With hot code swapping support:
 
 ```bash
-shadow-cljs watch app
+yarn
+yarn shadow-cljs watch app
 # another tty
 node target/main.js
 ```
