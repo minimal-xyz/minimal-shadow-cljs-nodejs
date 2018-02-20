@@ -4,13 +4,25 @@ Node.js example for [shadow-cljs](https://github.com/thheller/shadow-cljs)
 
 ### Develop
 
-With hot code swapping support:
+Watch compile with with hot reloading:
 
 ```bash
 yarn
 yarn shadow-cljs watch app
-# another tty
+```
+
+Start program:
+
+```bash
 node target/main.js
+```
+
+### REPL
+
+Start a REPL connected to current running program, `app` for the `:build-id`:
+
+```bash
+yarn shadow-cljs cljs-repl app
 ```
 
 ### Build
@@ -20,6 +32,8 @@ shadow-cljs release app
 ```
 
 Compiles to `target/main.js`.
+
+You may find more configurations on http://doc.shadow-cljs.org/ .
 
 ### Steps
 
