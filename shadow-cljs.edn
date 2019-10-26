@@ -1,5 +1,5 @@
 
-{:source-paths ["src"]
+{:source-paths ["src" "macros"]
  :dependencies []
  :builds {:app {:target :node-script
                 :output-to "target/main.js"
