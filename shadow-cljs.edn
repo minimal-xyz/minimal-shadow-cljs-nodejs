@@ -3,5 +3,4 @@
  :dependencies []
  :builds {:app {:target :node-script
                 :output-to "target/main.js"
-                :main server.main/main!
-                :devtools {:after-load server.main/reload!}}}}
+                :main server.main/main!}}}
