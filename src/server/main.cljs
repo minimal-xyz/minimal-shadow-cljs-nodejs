@@ -5,7 +5,7 @@
 
 (defonce value-b 2)
 
-(defn reload! []
+(defn ^:dev/after-load reload! []
   (println "Code updated.")
   (println "Trying values:" value-a value-b))
 
